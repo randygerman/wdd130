@@ -1,0 +1,95 @@
+:root {
+    --primary-color: #3A6EA5;
+    --secondary-color: #88C9BF;
+    --accent1-color: #1e1d09;
+    /* this one is changed because the last color was not fitting */
+    --accent2-color: #F25F5C;
+    --heading-font: 'Righteous', sans-serif;
+    --body-font: 'Nunito', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Optional: Make nav links display inline or styled */
+nav a {
+    margin-right: 12px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent2-color);
+}
