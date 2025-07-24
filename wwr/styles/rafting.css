@@ -37,8 +37,10 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 20px;
 }
+
 
 .history-content {
     display: grid;
