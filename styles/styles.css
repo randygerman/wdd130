@@ -26,12 +26,13 @@ main img {
 }
 
 aside {
-    width: 300px;
-    margin: 20px auto;
-    border: 1px solid #999;
-    padding: 10px;
-    background-color: #f0f0f0;
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
     color: #333;
+    text-align: center;
 }
 
 aside img {
@@ -40,7 +41,7 @@ aside img {
 }
 
 p {
-    padding: 0x;
+    padding: 0;
 }
 
 footer {
