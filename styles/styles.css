@@ -2,6 +2,11 @@
     --main-color: darkblue;
 }
 
+header {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: var(--main-color);
     padding: 10px;
